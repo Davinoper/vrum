@@ -1,0 +1,79 @@
+body{
+ 
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 20px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.btn:hover{
+    opacity: 50%;
+}
+
+#verde{
+    background-color: green;
+}
+
+#verm{
+    background-color: red;
+}
+
+#ama{
+    background-color: yellow;
+}
+
+#jogo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-width:25px;
+    background-color: gray;
+    margin-left: 610px;
+    width: 30px;
+    margin-top: 210px;
+    margin-bottom: 20px;
+    position:absolute;
+    Z-index: 3;
+}
+
+#resultado{
+    background-color: white;
+    width: 80px;
+    height: 60px ;
+    padding:10px;
+    margin-left: 600px;
+    font-size:30px;
+    text-align: center;
+}
+
+#estrada{
+    float:center;
+    position:absolute;
+    margin-left: 280px;
+    margin-top: 200px;
+}
+
+@media(max-width: 1920px){
+
+    #estrada{
+        float:center;
+        position:absolute;
+        margin-left: 28%;
+        margin-top: 10%;
+    }
+    
+    #jogo{
+        margin-left: 54%;
+        margin-top: 150px
+    }
+
+    #resultado{
+        margin-left: 54%
+    }
+
+}
